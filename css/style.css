@@ -1085,7 +1085,6 @@ blockquote, q {
   table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	background:#76b852;
   }
   
   /*-- start editing from here --*/
@@ -1317,7 +1316,7 @@ blockquote, q {
   
   @keyframes rippling {
 	50% {
-	  border-left-color: #fff;
+		border-left-color: #fff;
 	}
   
 	100% {
@@ -1442,12 +1441,7 @@ blockquote, q {
   
 	input[type="submit"] {
 	  margin: 2em 0;
-	}
-	h1 {
-		font-size: 2em;
-		letter-spacing: 3px;
-	  }
-	}
+
 	
 	@media(max-width:568px) {
 	  .main-agileinfo {
@@ -1581,5 +1575,15 @@ blockquote, q {
 	  .main-w3layouts {
 		padding: 1em 0 0;
 	  }
+	
+
+	body {
+		background-size: cover;
+		background-attachment: fixed;
+		font-family: 'Roboto', sans-serif;
 	}
+
+.sign {;
+	
+}
 
