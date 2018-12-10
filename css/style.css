@@ -14,7 +14,7 @@ body {
 .form {
   position: relative;
   z-index: 1;
-  background: #FFFFFF;
+  background: rgb(7, 7, 7);
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
@@ -1062,3 +1062,4 @@ body {
 #footer #footnote .section a:hover {
 	color:#ffffff;
 }
+
