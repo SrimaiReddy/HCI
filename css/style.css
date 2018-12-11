@@ -579,9 +579,19 @@ body {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;} 
-  
-  
+	cursor: pointer;} 
+	
+  .button2 { background-color:green;
+		border: none;
+		color:white;
+		padding: 10px 24px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;} 
+		
  /** Start Sidebar style **/ 
   #body #content #sidebar {
 	float:left;
@@ -994,6 +1004,13 @@ body {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+#user1{
+	color: white
+}
+#email1{
+	color: white
+}
+
 #body #content #sidebar .connect ul li a.facebook {
 	background: url("../images/icons.gif");
 	background-position: 0 -174px;

@@ -36,7 +36,7 @@
           <p><font color="white">Cats</font></p>
           <p><font color="white">Rabbit</font></p>
           
-                <button class = "button">Add pet</button>
+                <button class = "button"onclick="add()">Add pet</button>
                 
               
         
@@ -44,11 +44,10 @@
          </form>
        </div>
        <script>
-            // When the user clicks on <div>, open the popup
-            function myFunction() {
-              var popup = document.getElementById("myPopup");
-              popup.classList.toggle("show");
-            }
+ function add(){
+    alert("New pet is added")
+
+}
             </script>
     </body>
     </html>
