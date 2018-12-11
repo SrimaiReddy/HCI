@@ -11,10 +11,29 @@
 <div id="header"> <a href="#" id="logo"><img src="images/care.PNG" width="160" height="120" alt=""></a>
 
         <ul class="navigation">
-    <button class="button">Add User Accounts</button>
-    <button class="button1" >Remove/Block User Account</button>
+               
+     <button class="button1"><a href="index.html" >
+         <font color= "black"> Home </font></a></button>
+         
     
+         <select class = "button1" onchange="fun(this.value)">
+           
+            <option  value="addUser.html">Add User Accounts</option>
+            <option value="removeUser.html">Remove/Block User Accounts</option>
+          </select>
+          <select class=  "button1" onchange="fun(this.value)">
+              
+                <option value="view">View Pet Categories</option>
+                <option value="addnewpet.html">Add New Pets</option>
+                <option value="update">Update the description</option>
+                <option value="removepet.html">Remove Adopted Pets</option>
+              </select>
+              
 </div>
-
+<script>
+    function fun(src){
+        window.location = src;
+    }
+</script>
     </body>
     </html>
