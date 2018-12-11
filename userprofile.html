@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Pet Adoption</title>
-<meta charset="iso-8859-1">
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<!--[if IE 6]><link href="css/ie6.css" rel="stylesheet" type="text/css"><![endif]-->
-<!--[if IE 7]><link href="css/ie7.css" rel="stylesheet" type="text/css"><![endif]-->
+  <title>Pet Adoption</title>
+  <meta charset="iso-8859-1">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <!--[if IE 6]><link href="css/ie6.css" rel="stylesheet" type="text/css"><![endif]-->
+  <!--[if IE 7]><link href="css/ie7.css" rel="stylesheet" type="text/css"><![endif]-->
 </head>
-<body >
-<div id="header"> <a href="#" id="logo"><img src="images/care.PNG" width="160" height="120" alt=""></a>
- <ul class="navigation">
-    <li><a href="UserHome.html" width = "200">Home</a></li>
-  
+
+<body>
+  <div id="header"> <a href="#" id="logo"><img src="images/care.PNG" width="160" height="120" alt=""></a>
+    <ul class="navigation">
+      <li><a href="UserHome.html" width="200">Home</a></li>
+
+
+      <li><a href="petscategory.html" width="500">PetsCategory</a></li>
+      <li class="active"><a href="userprofile.html" width="400">UserProfile</a></li>
+      <li><a href="contact.html" width="600">Contact us</a></li>
+      <li><a href="UserHome.html" width="600">Logout</a></li>
+    </ul>
+  </div>
+  <div>
+    <h1>
+
+    </h1>
+    <h1>
+
+    </h1>
+  </div>
+
+  <div class="form">
     
-    <li><a href="petscategory.html" width = "500">PetsCategory</a></li>
-    <li class="active"><a href="userprofile.html" width = "400">UserProfile</a></li>
-    <li><a href="contact.html" width = "600">Contact us</a></li>
-    <li><a href="UserHome.html" width = "600">Logout</a></li>
-  </ul>
-</div>
-<div>
-    <h1>
+      <p>
+        <font color="white">Username: </font>
+      </p> <input type="text" value="shivani Reddy" id="user">
+      <p>
+        <font color="white">Email: </font>
+      </p> <input type="text" value="shivanireddy30@gmail.com" id="email">
 
-    </h1>
-    <h1>
 
-    </h1>
-</div>
 
-<div class="form">
-       <form>
-     <p> <font color="white">Username: </font> </p>  <input type="text" placeholder="shivani Reddy" id="user" >
-     <p><font color="white">Email: </font> </p> <input type="text" placeholder="shivanireddy30@gmail.com" id="email">
+      <button id="edit" class="button" onclick="myFunction()">Edit fields</button>
+      
 
-       
-                  
-                        <button id = "edit" class = "button" onclick="myFunction()">Edit fields</button>
-                        
-                      
-                        <p id="user1" class="user2" ></p>
-                        <p id="email1" class="email2"></p>
-                   
-                 </form>
-               </div>
-               <script>
-                    function myFunction() {
-                        var x = document.getElementById("user").value;
-                        document.getElementById("user1").innerHTML = x;
-                        var y = document.getElementById("email").value;
-                        document.getElementById("email1").innerHTML = y;
-                    }
-                    </script>
-                    </body>
-                    </html>
-                    
+      <p id="user1" class="user2"></p>
+      <p id="email1" class="email2"></p>
+
+    
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("user").value;
+      document.getElementById("user1").innerHTML = x;
+      var y = document.getElementById("email").value;
+      document.getElementById("email1").innerHTML = y;
+    }
+  </script>
+</body>
+
+</html>
