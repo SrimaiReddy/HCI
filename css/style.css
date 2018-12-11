@@ -428,10 +428,10 @@ body {
 	text-decoration:none;
 }
 #body #content .content .about ul li h2 a:hover {
-	color: #7F7154;
+	color: rgb(0, 0, 0);
 }
 #body #content .content .about ul li p {
-	color: #7F7154;
+	color:rgb(0, 0, 0);
 	font-family: "Myriad Pro";
 	font-size: 14px;
 	text-align: justify;
@@ -444,7 +444,7 @@ body {
 	text-decoration:underline;
 }
 #body #content .content .about ul li p a:hover {
-	color:#7F7154;
+	color:rgb(0, 0, 0);
 }
 /**------------ End of About page style  -------------**/
   
@@ -456,13 +456,13 @@ body {
 	font-family: "Myriad Pro";
 	font-size:14px;
 	line-height:25px;
-	color:#7F7154;
+	color:rgb(0, 0, 0);
 }
 #body #content .content div p a {
 	color:#FF9E01;
 }
 #body #content .content div p a:hover {
-	color:#7F7154;
+	color:rgb(245, 245, 245);
 }
 #body #content .content ul.connect {
 	font-family: "Myriad Pro";
@@ -1462,7 +1462,8 @@ blockquote, q {
   
 	input[type="submit"] {
 	  margin: 2em 0;
-
+	}
+}
 	
 	@media(max-width:568px) {
 	  .main-agileinfo {
@@ -1596,15 +1597,43 @@ blockquote, q {
 	  .main-w3layouts {
 		padding: 1em 0 0;
 	  }
-	
-
-	body {
-		background-size: cover;
-		background-attachment: fixed;
-		font-family: 'Roboto', sans-serif;
 	}
 
-.sign {;
+
+	.column {
+		float: left;
+		width: 25%;
+		padding: 0 10px;
+	}
 	
-}
+	
+	.row {margin: 0 -5px;}
+	
+	
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+
+	@media screen and (max-width: 600px) {
+		.column {
+			width: 100%;
+			display: block;
+			margin-bottom: 20px;
+		}
+	}
+	
+	/* Style the counter cards */
+	.card {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		padding: 16px;
+		text-align: center;
+		/* background-color: #000000; */
+		background-origin: padding-box;
+
+	}
+	
+
 
